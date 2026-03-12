@@ -17,19 +17,37 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 
 ![Snubby 2](<Construction/Snubby 2.jpg>)
 
-## 🔹 Rev 1 Schematic
+## 🔹 Rev A 1.1 Schematic
 
-![Rev 1](<Schematics/Rev 1.png>)
+![Rev 1](<Schematics/Rev A/Rev A 1.1.png>)
 
-## 🔹 Rev 1
 
-- Tracking versions.
+## 🔹 Rev A 1.1
 
-## 🔹 General Operation
+- Increased Zener diode thresholds.
+  - 3.3 V rail triggers at ~4.0 V (3.3 V + Q9 BE bias).
+  - 5 V rail triggers at ~5.8 V (5.1 V + Q5 BE bias).
+- Swapped positions of red LED's and their respective limiting resistors.
 
+## 🔹 Rev A 1
+
+- Initial release.
 - VCC input triggers at ~12.7 V (12 V + Q1 BE bias).
 - 3.3 V rail triggers at ~3.7 V (3 V + Q9 BE bias).
 - 5 V rail triggers at ~5.4 V (4.7V + Q5 BE bias).
 - Hysteresis provided by R6, R16, and R25.
   - Remove these (and the pull-up transistor), or tie them to ground, for non-latching operation.
-  
+
+## 🔹 Rev B 1 Schematic
+
+![Rev 1](<Schematics/Rev B/Rev B 1.png>)
+
+## 🔹 Rev B 1
+
+- Initial release.
+- Combined comparator outputs into a single detection stage.
+- Non-latching operation.
+
+> Educational Use Notice: This project is provided for educational and learning purposes only. You are welcome to read, study, and experiment
+> with this software and/or hardware. It is not intended for commercial use. This software and/or hardware is provided "as is", without warranty
+> of any kind. The author assumes no responsibility for any damages or issues resulting from its use.
