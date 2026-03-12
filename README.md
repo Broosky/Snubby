@@ -48,6 +48,8 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 - Combined comparator outputs into a single detection stage.
 - Non-latching operation.
 
+##
+
 > Educational Use Notice: This project is provided for educational and learning purposes only. You are welcome to read, study, and experiment
 > with this software and/or hardware. It is not intended for commercial use. This software and/or hardware is provided "as is", without warranty
 > of any kind. The author assumes no responsibility for any damages or issues resulting from its use.
