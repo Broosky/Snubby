@@ -19,8 +19,7 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 
 ## 🔹 Rev A 1.1 Schematic
 
-![Rev 1](<Schematics/Rev A/Rev A 1.1.png>)
-
+![Rev A 1.1](<Schematics/Rev A/Rev A 1.1.png>)
 
 ## 🔹 Rev A 1.1
 
@@ -40,7 +39,7 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 
 ## 🔹 Rev B 1 Schematic
 
-![Rev 1](<Schematics/Rev B/Rev B 1.png>)
+![Rev B 1](<Schematics/Rev B/Rev B 1.png>)
 
 ## 🔹 Rev B 1
 
