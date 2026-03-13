@@ -24,16 +24,17 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 ## 🔹 Rev A 1.1
 
 - Increased Zener diode thresholds.
-  - 3.3 V rail triggers at ~4.0 V (3.3 V + Q9 BE bias).
-  - 5 V rail triggers at ~5.8 V (5.1 V + Q5 BE bias).
+  - VCC input triggers at ~12.7 V.
+  - 5 V rail triggers at ~5.8 V.
+  - 3.3 V rail triggers at ~4.0 V.
 - Swapped positions of red LED's and their respective limiting resistors.
 
 ## 🔹 Rev A 1
 
 - Initial release.
 - VCC input triggers at ~12.7 V (12 V + Q1 BE bias).
-- 3.3 V rail triggers at ~3.7 V (3 V + Q9 BE bias).
 - 5 V rail triggers at ~5.4 V (4.7V + Q5 BE bias).
+- 3.3 V rail triggers at ~3.7 V (3 V + Q9 BE bias).
 - Hysteresis provided by R6, R16, and R25.
   - Remove these (and the pull-up transistor), or tie them to ground, for non-latching operation.
 
@@ -46,6 +47,9 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 - Initial release.
 - Combined comparator outputs into a single detection stage.
 - Non-latching operation.
+- VCC input triggers at ~12.7 V.
+- 5 V rail triggers at ~5.8 V.
+- 3.3 V rail triggers at ~4.0 V.
 
 ##
 
