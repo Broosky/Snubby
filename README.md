@@ -23,7 +23,7 @@ Capacitive decoupling and filtering is handled in the main Patchworks project an
 
 ## 🔹 Rev A 1.1
 
-- Increased Zener diode thresholds.
+- Increased zener diode thresholds.
   - VCC input triggers at ~12.7 V.
   - 5 V rail triggers at ~5.8 V.
   - 3.3 V rail triggers at ~4.0 V.
