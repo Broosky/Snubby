@@ -9,7 +9,6 @@ In my implementation, the output connects to the power-on relay control node, al
 Capacitive decoupling and filtering is handled in the main Patchworks project and this circuit is abbreviated as Snubby within it.
 
 > If you found this project useful, interesting, or worth keeping an eye on, consider giving it a ⭐️.
-> It helps others discover the project and motivates me to keep building and sharing more.
 
 ## 🔹 Construction
 
